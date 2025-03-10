@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descarcă Ghidul Tău Gratuit - TikTok și YouTube Shorts</title>
+    <style>
+        /* Resetare stiluri de bază */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        /* Stiluri pentru secțiunea principală */
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-10px);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1d72b8;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        /* Stiluri pentru butonul de call-to-action */
+        .cta-button {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+
+        .cta-button:active {
+            transform: scale(0.98);
+        }
+
+        /* Efecte de animație */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .container {
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* Footer stiluri */
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        footer a {
+            color: #1d72b8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Descarcă Ghidul Tău Gratuit de Monetizare pentru TikTok și YouTube Shorts!</h1>
+        <p>Vrei să înveți cum să monetizezi contul tău de TikTok și YouTube Shorts? Obține ghidul complet și gratuit care te va ghida pas cu pas!</p>
+        
+        <!-- Butonul pentru descărcare -->
+        <button class="cta-button" id="cta-button">Descarcă Acum!</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Împărtășește acest ghid cu prietenii tăi și începe să câștigi bani din TikTok și YouTube!</p>
+        <p><a href="#" target="_blank">Urmărește-ne pentru mai multe sfaturi utile!</a></p>
+    </footer>
+
+    <!-- JavaScript pentru acțiunea butonului -->
+    <script>
+        document.getElementById("cta-button").addEventListener("click", function() {
+            // Link-ul tău file locker
+            const lockerLink = "https://areyourealhuman.com/fl/26pl4"; 
+            window.location.href = lockerLink;
+        });
+    </script>
+</body>
+</html>
